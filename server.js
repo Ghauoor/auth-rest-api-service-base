@@ -16,6 +16,7 @@ app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 app.use(cors());
 
 app.use("/api/v1/product", require("./routes/productRoutes"));
+app.use("/api/v1/user", require("./routes/userRoutes.js"));
 
 const PORT = process.env.PORT || 5000;
 
