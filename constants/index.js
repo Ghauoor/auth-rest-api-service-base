@@ -13,6 +13,9 @@ module.exports = {
   },
   userMessage: {
     SIGNUP_SUCCESS: "User Signup Successfully",
+    LOGIN_SUCCESS: "Login Successful",
+    USER_NOT_FOUND: "User not Found",
+    INVALID_PASSWORD: "Incorrect Password",
     DUPLICATE_EMAIL: "User is Already Exist",
   },
   requestValidationMessage: {

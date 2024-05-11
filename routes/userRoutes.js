@@ -11,4 +11,10 @@ router.post(
   userController.signUp
 );
 
+router.post(
+  "/login",
+  joiSchemaValidation.validateBody(userSchema.login),
+  userController.login
+);
+
 module.exports = router;
